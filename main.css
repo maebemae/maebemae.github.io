@@ -1,15 +1,25 @@
-body {
+.wrapper {
     margin: 60px auto;
     width: 70%;
-    height: 80%
+    display: flex;
+    flex-direction: column;
 }
-nav ul, footer ul {
+
+header, footer {
+	height: 30px;
+}
+main {
+	flex: 1;
+}
+
+
+header ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+header ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
@@ -29,6 +39,8 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
