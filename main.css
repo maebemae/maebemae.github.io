@@ -1,6 +1,8 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+	min-height: 100vh;
+	margin: 60px auto;
+	width: 70%;
+	grid-template-rows: auto 1fr auto;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -29,6 +31,7 @@ p {
     color: #333;
 }
 footer {
+	min-height: 50px;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
